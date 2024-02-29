@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'AlibabaPuHuiTi-2-35-Thin';
+    src: url('./AlimamaDaoLiTi.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+.thin {
+    font-family: 'AlibabaPuHuiTi-2-35-Thin';
+}
+@font-face {
+    font-family: 'AlibabaPuHuiTi-2-45-Light';
+    src: url('./AlimamaDongFangDaKai-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+.light {
+    font-family: 'AlibabaPuHuiTi-2-45-Light';
+}
