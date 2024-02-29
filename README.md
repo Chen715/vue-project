@@ -27,3 +27,16 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## element-plus 安装
+官方安装指导
+https://element-plus.org/zh-CN/guide/quickstart.html#%E6%8C%89%E9%9C%80%E5%AF%BC%E5%85%A5
+### 安装
+```sh
+npm install element-plus --save
+```
+
+### 按需加入
+```sh
+npm install -D unplugin-vue-components unplugin-auto-import
+```
