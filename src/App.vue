@@ -5,16 +5,24 @@ import container from'@/views/container.vue'
 
 import wiki from'@/views/wiki.vue'
 
+
 </script>
 
 <template>
-  <header>
+
+  <header >
+    
     <!-- <container /> -->
     <wiki /> 
   </header>
 
 </template>
 
-<style scoped>
-
+<style> 
+	@import './font-style/font.css';
+	header {
+		font-family: AlibabaPuHuiTi-2-45-Light; 
+ 
+	}
 </style>
+
