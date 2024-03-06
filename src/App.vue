@@ -3,17 +3,21 @@ import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import container from'@/views/container.vue'
 
-import wiki from'@/views/wiki.vue'
+import wiki from'@/views/wiki/wiki.vue'
 
+import tabs from'@/views/tabs.vue'
 
 </script>
 
 <template>
 
+
   <header >
     
     <!-- <container /> -->
     <wiki /> 
+
+  <!-- <tabs /> -->
   </header>
 
 </template>

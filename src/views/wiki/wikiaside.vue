@@ -5,6 +5,7 @@
         <el-menu
           default-active="2"
           class="el-menu-vertical-demo"
+          :collapse="isCollapse"
           @open="handleOpen"
           @close="handleClose"
           @select="handleSelect"
@@ -51,6 +52,9 @@
     Setting,
   } from '@element-plus/icons-vue'
 
+  
+  const isCollapse = false  //控制是否显示
+
   //每次点击，这会有相关的反馈，根据反馈进行实时的数据跟新
 
   const handleOpen = (key: string, keyPath: string[]) => {
@@ -74,6 +78,9 @@
   .el-menu-item{
     font-size: 24px;
   }
-  
+  .el-menu-vertical-demo:not(.el-menu--collapse) {
+    width: 200px;
+    min-height: 400px;
+  }
   </style>
   
