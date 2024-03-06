@@ -18,7 +18,16 @@ import wiki from'@/views/wiki.vue'
 
 </template>
 
-<style scoped>
+<style> 
+	@import './font-style/font.css';
+	header {
+		font-family: AlibabaPuHuiTi-2-35-Light; 
+    
+	}
+  
 
+  *{
+    font-size: x-large;
+  }
 </style>
 
