@@ -11,11 +11,10 @@ import wikiaside from'@/views/wiki/wikiaside.vue'
             <WikiHeader /> 
 
         </el-header>
-        
-        <el-container class="wiki-layout-aside" >
-            <el-aside width="600px"  >
+        <el-container>
+            <el-aside width="200px">
+                Aside
 
-                <wikiaside /> 
             </el-aside>
 
             <el-main style="font-size: 30px" >
@@ -53,10 +52,4 @@ import wikiaside from'@/views/wiki/wikiaside.vue'
       </el-container>
     </div>
   </template>
-
-<style>
-  body{
-    margin: 0px;
-  }
-
-</style>
+  

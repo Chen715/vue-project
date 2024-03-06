@@ -5,6 +5,7 @@ import container from'@/views/container.vue'
 
 import wiki from'@/views/wiki.vue'
 
+
 </script>
 
 <template>
@@ -17,16 +18,7 @@ import wiki from'@/views/wiki.vue'
 
 </template>
 
-<style> 
-	@import './font-style/font.css';
-	header {
-		font-family: AlibabaPuHuiTi-2-35-Light; 
-    
-	}
-  
+<style scoped>
 
-  *{
-    font-size: x-large;
-  }
 </style>
 
