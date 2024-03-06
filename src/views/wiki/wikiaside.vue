@@ -43,6 +43,7 @@
   </template>
   
   <script lang="ts" setup>
+  
   import {
     Document,
     Menu as IconMenu,
@@ -64,5 +65,15 @@
         console.log("key")
     }
   }
+
+  
   </script>
+
+  <style>
+  
+  .el-menu-item{
+    font-size: 24px;
+  }
+  
+  </style>
   

@@ -40,3 +40,5 @@ npm install element-plus --save
 ```sh
 npm install -D unplugin-vue-components unplugin-auto-import
 ```
+
+2024年3月6日 Wiki的基础框架搭建完成，后续需要根据实际的资料来丰富相关网页

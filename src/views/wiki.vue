@@ -13,7 +13,7 @@ import wikiaside from'@/views/wiki/wikiaside.vue'
         </el-header>
         
         <el-container class="wiki-layout-aside" >
-            <el-aside width="500px" >
+            <el-aside width="600px"  >
 
                 <wikiaside /> 
             </el-aside>
@@ -55,5 +55,8 @@ import wikiaside from'@/views/wiki/wikiaside.vue'
   </template>
 
 <style>
+  body{
+    margin: 0px;
+  }
 
 </style>
